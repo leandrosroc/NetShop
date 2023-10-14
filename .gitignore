@@ -1,0 +1,82 @@
+# Arquivos e diretórios padrão que você pode querer ignorar em um projeto .NET
+## Ignore arquivos de compilação
+*.obj
+*.dll
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+*.vc.db
+
+## Ignorar diretórios
+bin/
+obj/
+
+## Ignorar arquivos de publicação de perfil
+PublishProfiles/
+*.pubxml
+
+## Ignorar diretórios específicos do Visual Studio
+.vscode/
+.vs/
+_ReSharper*/
+_resharper*/
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+
+## Ignorar arquivos de build temporários
+[Bb]in/
+[Oo]bj/
+
+## Ignorar arquivos de publicação
+[Pp]ublish/
+[Pp]ubxml
+*.[Cc]ache
+*.vspscc
+
+## Ignorar arquivos do Rider
+.idea/
+
+## Ignorar arquivos de teste do NUnit
+_test-reports/
+TestResult.xml
+
+## Ignorar arquivos do MSTest
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Ignorar diretórios do T4
+Generated_Code/
+[Tt]4[Tt]emp/
+[Tt]4[Tt]emplates/
+
+## Ignorar arquivos de compilação do DotCover
+DotCover/
+
+## Ignorar diretórios de saída do Visual Studio
+[Oo]bj/
+[Bb]in/
