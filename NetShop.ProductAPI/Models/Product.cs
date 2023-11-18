@@ -10,24 +10,24 @@ namespace NetShop.ProductAPI.Models
         [Column("NM_NOME")]
         [Required]
         [StringLength(150)]
-        public string Nome { get; set; }
+        public string Name { get; set; }
 
         [Column("VL_PRECO")]
         [Required]
         [Range(1, 10000)]
-        public decimal Preco { get; set; }
+        public decimal Price { get; set; }
 
         [Column("DS_DESCRICAO")]
         [StringLength(500)]
-        public string Descricao { get; set; }
+        public string Description { get; set; }
 
         [Column("NM_CATEGORIA")]
         [Required]
         [StringLength(50)]
-        public string CategoriaNome { get; set;}
+        public string CategoryName { get; set;}
 
         [Column("URL_IMAGEM")]
         [StringLength(300)]
-        public string ImagemUrl { get; set;}
+        public string ImageURL { get; set;}
     }
 }
