@@ -11,10 +11,10 @@ namespace NetShop.ProductAPI.Repository
         private readonly MySQLContext _context;
         private readonly IMapper _mapper;
 
-        public ProductRepository(MySQLContext _context, IMapper _mapper)
+        public ProductRepository(MySQLContext context, IMapper mapper)
         {
-            _context = _context;
-            _mapper = _mapper;
+            _context = context;
+            _mapper = mapper;
         }
 
         public async Task<IEnumerable<ProductVO>> FindAll()
@@ -70,7 +70,6 @@ namespace NetShop.ProductAPI.Repository
             }
             catch (Exception)
             {
-
                 return false;
             }
         }
