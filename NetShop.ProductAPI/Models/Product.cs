@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace NetShop.ProductAPI.Models
 {
     [Table("TB_PRODUTO")]
-    public class Produto : BaseEntity
+    public class Product : BaseEntity
     {
         [Column("NM_NOME")]
         [Required]

@@ -7,6 +7,6 @@ namespace NetShop.ProductAPI.Models.Context
         public MySQLContext() { }
         public MySQLContext(DbContextOptions<MySQLContext> options) : base(options) { }
 
-        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
