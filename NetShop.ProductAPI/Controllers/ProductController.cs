@@ -25,7 +25,7 @@ namespace NetShop.ProductAPI.Controllers
         public async Task<ActionResult<ProductVO>> FindById(long id)
         {
             var product = await _repository.FindById(id);
-            if(product == null) return NotFound();
+            if (product == null) return NotFound();
             return Ok(product);
         }
 
@@ -49,7 +49,7 @@ namespace NetShop.ProductAPI.Controllers
         public async Task<ActionResult<ProductVO>> Delte(long id)
         {
             var status = await _repository.Delete(id);
-            if(!status) return BadRequest();
+            if (!status) return BadRequest();
             return Ok(status);
         }
 
