@@ -46,7 +46,7 @@ namespace NetShop.ProductAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<ProductVO>> Delte(long id)
+        public async Task<ActionResult<ProductVO>> Delete(long id)
         {
             var status = await _repository.Delete(id);
             if (!status) return BadRequest();
